@@ -18,6 +18,14 @@ export default class App extends React.Component {
 
   render() {
     return <Fragment>
+       
+      {/* <MenuBar/>
+      
+      
+      <LandingMain/>
+       */}
+      
+      
       <Switch>
         <Route exact path="/">
       <MenuBar/>

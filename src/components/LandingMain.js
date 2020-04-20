@@ -1,32 +1,21 @@
 
-import React from "react";
-// import snow from './snow'
-import startSnow from './snow';
 
-
+import React, { Component } from 'react';
+import SnowStorm from 'react-snowstorm';
 
 
 class LandingMain extends React.Component {
   constructor(){
     super()
   }
-
-  componentDidMount() {
-    console.log('Component did mount!')
-    startSnow();
- }
-
- componentWillUnmount(){
-  startSnow();
-
- }
-  
-
  
   render() {
+    
+    
 
     return (
       <div className="landing-main">
+        <SnowStorm />
 <div className="landing-title">
   <h1 className="title1">Gádor Villanueva Martos</h1>
   <h1 className="title2">Front-end Developer</h1>

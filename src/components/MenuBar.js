@@ -40,10 +40,11 @@ export default class MenuBar extends React.Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/" style = {{color:"#FFFFFF"}}>About Me</NavLink>
+              <NavLink href="./App" style = {{color:"#FFFFFF"}}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink exact to="/Portfolio" activeClassName="active" tag={RRNavLink} style = {{color:"#FFFFFF"}}>Portfolio</NavLink>
+              {/* <NavLink exact to="/Portfolio" activeClassName="active" tag={RRNavLink} style = {{color:"#FFFFFF"}}>Portfolio</NavLink> */}
+             <NavLink href="#Portfolio"   style = {{color:"#FFFFFF"}}>Portfolio</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret style = {{color:"#FFFFFF"}}v>
