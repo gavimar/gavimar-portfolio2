@@ -2,6 +2,7 @@ import React from "react";
 
 import ReactCardFlip from 'react-card-flip';
 import {Button} from 'reactstrap';
+import image from '../images/collapsing.jpg'
 
 
 
@@ -31,14 +32,16 @@ render () {
         <div className ="card-front">
         
           
-          <Button onClick={this.handleClick}>Details</Button>
+          <Button className="button" onClick={this.handleClick}>Details</Button>
           </div>
         
  
-        <div>
-          This is the back of the card.
-          <button onClick={this.handleClick}>Click to flip</button>
-          </div>
+          <div className ="card-back">
+            <img src={image}/>
+        
+          
+        <Button className="button" onClick={this.handleClick}>Back</Button>
+        </div>
           
       </ReactCardFlip>
       </div>

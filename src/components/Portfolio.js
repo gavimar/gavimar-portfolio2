@@ -27,7 +27,7 @@ export default class Portfolio extends React.Component {
             <Container className="card-container">
               <Row>
               
-              <Col sm ={5}>
+              <Col sm ={5} >
               <Card></Card>
       </Col>
       
