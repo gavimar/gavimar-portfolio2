@@ -3,6 +3,7 @@ import React from "react";
 import ReactCardFlip from 'react-card-flip';
 import {Button} from 'reactstrap';
 import image from '../images/collapsing.jpg';
+import { Fragment } from 'react';
 
 
 
@@ -28,9 +29,9 @@ render () {
   
   return(
     
+    <Fragment>
     
-    <div className ="card">
-              <h3 className="project-title"> {this.props.name}</h3>
+              
               <ReactCardFlip  isFlipped={this.state.isFlipped} flipDirection="vertical">
                 
         <div className ={`card-front ${this.props.background}`}>
@@ -43,6 +44,7 @@ render () {
  
           <div className ={`card-back ${this.props.backgroundBack}`}>
             <div className = "card-back-container">
+            <h3 className="project-title"> {this.props.name}</h3>
             <div className="project-links">
             <a href={this.props.website}><i className="fas fa-desktop"></i>Website</a>
             <a href={this.props.code}><i className="fas fa-code-branch"></i>Code</a>
@@ -56,8 +58,8 @@ render () {
         </div>
           
       </ReactCardFlip>
-      </div>
       
+      </Fragment>
   )}
 
 }
