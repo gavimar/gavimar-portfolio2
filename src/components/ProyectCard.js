@@ -42,7 +42,7 @@ render () {
           </div>
         
  
-          <div className ={`card-back ${this.props.backgroundBack}`}>
+          <div className ="card-back">
             <div className = "card-back-container">
             <h3 className="project-title"> {this.props.name}</h3>
             <div className="project-links">

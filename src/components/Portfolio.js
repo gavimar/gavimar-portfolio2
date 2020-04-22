@@ -35,7 +35,7 @@
                 website = "https://gavimar.github.io/collapsing-margins/"
                 code="https://github.com/gavimar/collapsing-margins"
                 background = "collapsing"
-                backgroundBack ="collapsingBack">
+                >
                   
                 </ProjectCard>
                 
@@ -44,15 +44,38 @@
         <Col sm ={5}>
       
           <ProjectCard
-                name = "Awesome Profile Cards"
-                description ="Layout project. A responsive website to present a team, created using HTML5 and SASS."
+                name = "Awesome Profile Cards - Javascript"
+                description ="Business cards creator, using HTML, SASS, JavasScript and RESTful API services to post and get data."
                 website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
                 code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
                 background = "awesome"
-                backgroundBack ="awesomeBack">
+                >
           </ProjectCard>
         </Col>
         
+        </Row>
+
+        <Row>
+        <Col sm ={5}>
+        <ProjectCard
+                name = "Awesome Profile Cards - React"
+                description ="Business cards creator, using HTML, SASS, JavasScript and RESTful API services to post and get data."
+                website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
+                code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
+                background = "awesome"
+                >
+          </ProjectCard>
+        </Col>
+        <Col sm ={5}>
+        <ProjectCard
+                name = "Awesome Profile Cards - React"
+                description ="Business cards creator, using HTML, SASS, JavasScript and RESTful API services to post and get data."
+                website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
+                code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
+                background = "awesome"
+                >
+          </ProjectCard>
+        </Col>
         </Row>
         </Container>
 

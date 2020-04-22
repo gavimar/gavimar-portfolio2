@@ -52,14 +52,14 @@ export default class MenuBar extends React.Component {
                 </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                  Linkedin
                   </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                  Twitter
                   </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  Reset
+                  CV
                   </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
