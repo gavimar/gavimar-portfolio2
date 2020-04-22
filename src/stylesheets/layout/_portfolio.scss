@@ -4,27 +4,53 @@
   // display: flex;
   // justify-content: center;
   // align-items: center;
+  text-align: center;
+  .row{
+    display: flex;
+    justify-content: center;
+
+  }
  
 
   .card{
-    border-radius: 5px;
-    border: solid 1px #5dbcd2;
-    height: 280px;
+    // border-radius: 5px;
+    // border: solid 1px #5dbcd2;
+    border: none;
+    height: 300px;
       h3{
         padding:5px;
-        font-size: 20px;
+        font-size: 18px;
         @media all and (min-width:$tablet){
-          font-size:24px;
+          font-size:20px;
         }}
     margin:10px;
     position: relative;
+
+    .react-card-flip{
+      border-radius: 5px;
+    border: solid 1px #5dbcd2;
     
-    
+    .collapsing{
+      background-image: url(../../images/collapsing.jpg);}
+
+    .awesome{
+      background-image: url(../../images/awesome.jpg);
+    }
+
+    // .collapsingBack{
+    //   background: linear-gradient(to left, rgba(255,255,255,0.7) 10%, rgba(255,255,255,1)), url(../../images/collapsing.jpg);
+    // }
+
+    // .awesomeBack{
+    //   background: linear-gradient(to left, rgba(255,255,255,0.7) 10%, rgba(255,255,255,1)), url(../../images/awesome.jpg);
+    // }
+
     .card-front{
-      background-image: url(../../images/collapsing.jpg);
       background-size: cover;
       background-position: center;
+      
       position:relative;
+      
       width:100%;
       
       
@@ -43,22 +69,38 @@
     }
 
     .card-back{
-      // background: url(../../images/collapsing.jpg) 0 50%;
-      // background-size: cover;
-      // background-position: center;
-      // opacity: 0.5;
+      background: linear-gradient(to left, rgba(186, 210, 241, 0.5) 10%, rgba(93, 188, 210, 0.3));
+      
+      background-size: cover;
+      background-position: center;
       position:relative;
+      text-align: left;
       
-      
-      img{
-        opacity: 0.5;
-        z-index: -1;
-        width: 100%;
-        height: 200px;
-        @media all and (min-width:$tablet){
-          height:240px;
+        .card-back-container{
+          height: 100%;
+          
+          margin-left: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          
         }
-      }
+      
+        a{
+          display: block;
+          text-decoration: none;
+          i{
+            width: 20px;
+            margin-right: 10px;
+          }
+        }
+
+        .project-description{
+          margin-top: 10px;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+        }
       
       
       height: 200px;
@@ -76,6 +118,7 @@
           z-index: 1;
         }
     }
+  }
 
   }
 }
