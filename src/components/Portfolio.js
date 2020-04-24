@@ -92,7 +92,7 @@
         <Row>
         <Col sm ={5}>
         <ProjectCard
-                name = "Ricky Morty. Character Finder - Reacy"
+                name = "Ricky Morty. Character Finder - React"
                 description ="Search interface that connects to and API to get and show data. If you click on an item the character details are displayed."
                 website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
                 code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
