@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/App.scss';
-import LandingMain from './LandingMain'
+import LandingMain from './LandingMain';
+
 
 
 

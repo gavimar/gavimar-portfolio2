@@ -40,25 +40,27 @@ export default class MenuBar extends React.Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="./App" style = {{color:"#FFFFFF"}}>Home</NavLink>
+              <NavLink className="inactive" activeClassName="active"  href="./App" style = {{color:"#FFFFFF"}} activeStyle={{
+    fontWeight: "bold",    backgroundColor: 'blue' }}>Home</NavLink>
             </NavItem>
             <NavItem>
               {/* <NavLink exact to="/Portfolio" activeClassName="active" tag={RRNavLink} style = {{color:"#FFFFFF"}}>Portfolio</NavLink> */}
-             <NavLink href="#Portfolio"   style = {{color:"#FFFFFF"}}>Portfolio</NavLink>
+             <NavLink className="inactive" activeClassName="active" href="#Portfolio"  style = {{color:"#FFFFFF"}} activeStyle={{
+    fontWeight: "bold",    backgroundColor: 'blue' }}>Portfolio</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret style = {{color:"#FFFFFF"}}v>
+              <DropdownToggle nav caret style = {{color:"#FFFFFF"}}>
                 Contact
                 </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
+              <DropdownMenu right style={{backgroundColor: '#5dbcd2'}}>
+                <DropdownItem style = {{color:"#FFFFFF"}}>
                   Linkedin
                   </DropdownItem>
-                <DropdownItem>
+                <DropdownItem style = {{color:"#FFFFFF"}}>
                   Twitter
                   </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>
+                <DropdownItem style = {{color:"#FFFFFF"}}>
                   CV
                   </DropdownItem>
               </DropdownMenu>

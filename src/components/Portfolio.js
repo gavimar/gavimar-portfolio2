@@ -80,7 +80,7 @@
         <ProjectCard
                 name = "Shows Finder"
                 description ="Javascript project: Search interface that connects to and API to get and show data. You can save your favourite items."
-                website = "http://beta.adalab.es/modulo-2-evaluacion-final-gavimar/"
+                website = "http://beta.adalab.es/modulo-2-evaluacion-final-gavimar//"
                 code="https://github.com/Adalab/modulo-2-evaluacion-final-gavimar"
                 background = "api"
                 
