@@ -78,8 +78,8 @@
         </Col>
         <Col sm ={5}>
         <ProjectCard
-                name = "Shows Finder"
-                description ="Javascript project: Search interface that connects to and API to get and show data. You can save your favourite items."
+                name = "Shows Finder - JavaScript"
+                description ="Search interface that connects to and API to get and show data. You can save your favourite items."
                 website = "http://beta.adalab.es/modulo-2-evaluacion-final-gavimar//"
                 code="https://github.com/Adalab/modulo-2-evaluacion-final-gavimar"
                 background = "api"
@@ -89,18 +89,18 @@
         </Col>
         </Row>
 
-        {/* <Row>
+        <Row>
         <Col sm ={5}>
         <ProjectCard
-                name = "Awesome Profile Cards - React"
-                description ="Editing code project implementing React and refactoring."
+                name = "Ricky Morty. Character Finder - Reacy"
+                description ="Search interface that connects to and API to get and show data. If you click on an item the character details are displayed."
                 website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
                 code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
-                background = "awesome"
+                background = "ricky"
                 >
           </ProjectCard>
         </Col>
-        <Col sm ={5}>
+        {/* <Col sm ={5}>
         <ProjectCard
                 name = "Shows Finder"
                 description ="Javascript project: Search interface that connects to and API to get and show data. You can save your favourite items."
@@ -110,8 +110,8 @@
                 
                 >
           </ProjectCard>
-        </Col>
-        </Row> */}
+        </Col> */}
+        </Row>
 
         </Container>
 

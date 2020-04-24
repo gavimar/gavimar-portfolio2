@@ -34,11 +34,11 @@ render () {
               
               <ReactCardFlip  isFlipped={this.state.isFlipped} flipDirection="vertical">
                 
-        <div className ={`card-front ${this.props.background}`}>
+        <div className ={`card-front ${this.props.background}`} onClick={this.handleClick}>
           
         
           
-          <Button className="button" onClick={this.handleClick}>Details</Button>
+          <Button className="button" >Details</Button>
           </div>
         
  

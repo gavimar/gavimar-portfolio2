@@ -53,15 +53,12 @@ export default class MenuBar extends React.Component {
                 Contact
                 </DropdownToggle>
               <DropdownMenu right style={{backgroundColor: '#5dbcd2'}}>
-                <DropdownItem style = {{color:"#FFFFFF"}}>
+                <DropdownItem style = {{color:"#FFFFFF"}} href="https://www.linkedin.com/in/gador-villanueva-martos/">
                   Linkedin
                   </DropdownItem>
-                <DropdownItem style = {{color:"#FFFFFF"}}>
+                  <DropdownItem divider />
+                <DropdownItem style = {{color:"#FFFFFF"}} href="https://twitter.com/MartosGador">
                   Twitter
-                  </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem style = {{color:"#FFFFFF"}}>
-                  CV
                   </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
