@@ -1,7 +1,8 @@
 .landing-main{
   // background-color:#6B92B9;
   background-color: #1d4456;
-  background-color: linear-gradient(#112630, #1d4456);
+  background:(to left, (#112630) 10%, (#1d4456));
+  // background: linear-gradient(#112630, #1d4456);
   width:100%;
   height: 90vh;
   position:relative;
@@ -11,15 +12,26 @@
   // position: absolute;
   // top:30%;
   // left:30%;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 30vh;
+  position:absolute;
+  top: 20%;
+  left: 10%;
+  
   color:white;
     // font-family: 'Baloo Paaji 2', cursive;
     // font-family: 'Averia Libre', cursive;
     font-family: 'Cinzel', serif;
+    font-size: medium;
+    
+    @media all and (min-width:$tablet){
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+      height: 40vh;
+      font-size: large;
+
+    }
 
   .title1{
     margin:0;

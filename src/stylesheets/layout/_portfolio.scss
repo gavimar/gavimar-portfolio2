@@ -6,9 +6,10 @@
 }
 
 .portfolio-main{
-  background-image: url(../../images/summit.jpg);
-  background-position: center;
-  background-size: cover;
+  // background-image: url(../../images/summit.jpg);
+  // background-position: center;
+  // background-size: cover;
+  background-color: #1d4456;
   margin:0;
   
 }
@@ -85,7 +86,7 @@
           position: absolute;
           left: 42%;
           bottom: 10px;
-          background-color: #1d4456;;
+          background-color: #1d4456;
         }
     }
 
@@ -120,19 +121,21 @@
           
         }
         .project-description{
-          display: none;
           margin-top: 10px;
           display:flex;
           justify-content: center;
           align-items: center;
           color:white;
+         
+          display: none;
+          @media all and (min-width:$tablet){
+            display: block;
+            
+          }
         }
 
-       
-
-        @media all and (min-width:$tablet){
-          display: block;
-        }
+      
+        
       
       
       height: 200px;
@@ -145,11 +148,15 @@
           position: absolute;
           left: 42%;
           bottom: 10px;
-          background-color: #1d4456;;
+          background-color: #1d4456;
           opacity: 1;
           z-index: 1;
         }
     }
+  }
+
+  .project-title{
+    color:White;
   }
 
   }

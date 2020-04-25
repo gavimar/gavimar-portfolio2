@@ -4,18 +4,8 @@
   import { Container, Row, Col } from 'reactstrap';
 
   import ProjectCard from './ProyectCard';
-  // import styled, { keyframes } from "styled-components";
-  // import BounceOutLeft from "@bit/formidablelabs.react-animations.bounce-out-left";
-  // const BounceOutLeftAnimation = keyframes`${BounceOutLeft}`;
-  // const BounceOutLeftDiv = styled.div`
-  //   animation: infinite 25s ${BounceOutLeftAnimation};
-  //   animation-delay: 2s;
-  // `;
+  
  
-
-
-
-
   export default class Portfolio extends React.Component {
     constructor() {
       super();
@@ -38,7 +28,7 @@
                 
                 <Col sm ={5} >
                 <ProjectCard
-                name = "Collapsing Margins"
+                name = "Collapsing Margins - Responsive Layout"
                 description ="Layout project. A responsive website to present a team, created using HTML5 and SASS."
                 website = "https://gavimar.github.io/collapsing-margins/"
                 code="https://github.com/gavimar/collapsing-margins"
@@ -53,7 +43,7 @@
         <Col sm ={5}>
       
           <ProjectCard
-                name = "Awesome Profile Cards - Javascript"
+                name = "Awesome Profile Cards - JavaScript"
                 description ="Business cards creator, using HTML, SASS, JavasScript and RESTful API services to post and get data."
                 website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
                 code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
@@ -68,7 +58,7 @@
         <Row>
         <Col sm ={5}>
         <ProjectCard
-                name = "Awesome Profile Cards - React"
+                name = "Awesome Profile Cards - Migration to React"
                 description ="Editing code project implementing React and refactoring."
                 website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
                 code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
@@ -78,7 +68,7 @@
         </Col>
         <Col sm ={5}>
         <ProjectCard
-                name = "Shows Finder - JavaScript"
+                name = "Shows Finder -API Data - Javascript "
                 description ="Search interface that connects to and API to get and show data. You can save your favourite items."
                 website = "http://beta.adalab.es/modulo-2-evaluacion-final-gavimar//"
                 code="https://github.com/Adalab/modulo-2-evaluacion-final-gavimar"
@@ -92,10 +82,10 @@
         <Row>
         <Col sm ={5}>
         <ProjectCard
-                name = "Ricky Morty. Character Finder - React"
+                name = "Character Finder - API Data - React"
                 description ="Search interface that connects to and API to get and show data. If you click on an item the character details are displayed."
-                website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
-                code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
+                website = "http://beta.adalab.es/modulo-3-evaluacion-final-gavimar/#/"
+                code="https://github.com/Adalab/modulo-3-evaluacion-final-gavimar"
                 background = "ricky"
                 >
           </ProjectCard>

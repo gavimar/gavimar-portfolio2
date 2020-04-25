@@ -30,7 +30,7 @@ render () {
   return(
     
     <Fragment>
-    
+              <h3 className="project-title"> {this.props.name}</h3>
               
               <ReactCardFlip  isFlipped={this.state.isFlipped} flipDirection="vertical">
                 
@@ -44,7 +44,7 @@ render () {
  
           <div className ="card-back">
             <div className = "card-back-container">
-            <h3 className="project-title"> {this.props.name}</h3>
+            
             <div className="project-links">
             <a href={this.props.website}><i className="fas fa-desktop"></i>Website</a>
             <a href={this.props.code}><i className="fas fa-code-branch"></i>Code</a>
