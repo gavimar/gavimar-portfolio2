@@ -60,7 +60,7 @@
         <ProjectCard
                 name = "Awesome Profile Cards - Migration to React"
                 description ="Editing code project implementing React and refactoring."
-                website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
+                website = "http://beta.adalab.es/project-promo-i-module-3-team-3-afternoon/"
                 code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
                 background = "awesome-react"
                 >
