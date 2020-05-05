@@ -39,33 +39,50 @@
                 </ProjectCard>
                 
         </Col>
-        
+
+        <Col sm ={5}>
+        <ProjectCard
+                name = "Climb Around - API data - React Hooks"
+                description ="React project using hooks, geolocation and leaflet. It connects to and API to show climbing routes near the user location (also displayed in an interactive map)."
+                website = "https://gavimar.github.io/mountain-proyect-api/"
+                code="https://github.com/gavimar/mountain-proyect-api"
+                background = "climb"
+                
+                >
+          </ProjectCard>
+        </Col>
+        </Row>
+
+        <Row>
         <Col sm ={5}>
       
           <ProjectCard
                 name = "Awesome Profile Cards - JavaScript"
                 description ="Business cards creator, using HTML, SASS, JavasScript and RESTful API services to post and get data."
-                website = "http://beta.adalab.es/project-promo-i-module-2-team-4-afternoon/"
-                code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
+                website = "https://gavimar.github.io/awesome-cards-javascript/"
+                code="https://github.com/gavimar/awesome-cards-javascript"
                 background = "awesome"
                
                 >
           </ProjectCard>
         </Col>
         
-        </Row>
-
-        <Row>
+        
         <Col sm ={5}>
         <ProjectCard
                 name = "Awesome Profile Cards - Migration to React"
                 description ="Editing code project implementing React and refactoring."
-                website = "http://beta.adalab.es/project-promo-i-module-3-team-3-afternoon/"
-                code="https://github.com/Adalab/project-promo-i-module-2-team-4-afternoon"
+                website = "https://gavimar.github.io/awesome-cards-react/"
+                code="https://github.com/gavimar/awesome-cards-react"
                 background = "awesome-react"
                 >
           </ProjectCard>
         </Col>
+
+        </Row>
+
+        <Row>
+
         <Col sm ={5}>
         <ProjectCard
                 name = "Shows Finder -API Data - Javascript "
@@ -77,30 +94,20 @@
                 >
           </ProjectCard>
         </Col>
-        </Row>
+        
 
-        <Row>
+        
         <Col sm ={5}>
         <ProjectCard
                 name = "Character Finder - API Data - React"
                 description ="Search interface that connects to and API to get and show data. If you click on an item the character details are displayed."
-                website = "http://beta.adalab.es/modulo-3-evaluacion-final-gavimar/#/"
-                code="https://github.com/Adalab/modulo-3-evaluacion-final-gavimar"
+                website = "https://gavimar.github.io/api-react/"
+                code="https://github.com/gavimar/api-react"
                 background = "ricky"
                 >
           </ProjectCard>
         </Col>
-        {/* <Col sm ={5}>
-        <ProjectCard
-                name = "Shows Finder"
-                description ="Javascript project: Search interface that connects to and API to get and show data. You can save your favourite items."
-                website = "http://beta.adalab.es/modulo-2-evaluacion-final-gavimar/"
-                code="https://github.com/Adalab/modulo-2-evaluacion-final-gavimar"
-                background = "api"
-                
-                >
-          </ProjectCard>
-        </Col> */}
+        
         </Row>
 
         </Container>

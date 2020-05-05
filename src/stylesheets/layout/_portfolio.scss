@@ -1,14 +1,12 @@
 .portfolio-wrapper{
-  // background-color: #1d4456;
+  
   
   height: 100%;
   margin-bottom: 0;
 }
 
 .portfolio-main{
-  // background-image: url(../../images/summit.jpg);
-  // background-position: center;
-  // background-size: cover;
+  
   background-color: #1d4456;
   margin:0;
   
@@ -65,6 +63,10 @@
 
     .ricky{
       background-image: url(../../images/ricky.jpg);
+    }
+
+    .climb{
+      background-image: url(../../images/climbAround.jpg);
     }
 
     .card-front{

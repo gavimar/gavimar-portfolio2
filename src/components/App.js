@@ -1,10 +1,6 @@
 import React from 'react';
 import '../stylesheets/App.scss';
 import LandingMain from './LandingMain';
-
-
-
-
 import { Fragment } from 'react';
 import MenuBar from './MenuBar';
 import { Route, Switch } from 'react-router-dom';
@@ -19,19 +15,9 @@ export default class App extends React.Component {
 
   render() {
     return <Fragment>
-       
-      {/* <MenuBar/>
-      
-      
-      <LandingMain/>
-       */}
-      
-      
       <Switch>
         <Route exact path="/">
       <MenuBar/>
-      
-      
       <LandingMain/>
       </Route>
       
