@@ -40,17 +40,21 @@
                 
         </Col>
 
-        <Col sm ={5}>
-        <ProjectCard
-                name = "Climb Around - API data - React Hooks"
-                description ="React project using hooks, geolocation and leaflet. It connects to and API to show climbing routes near the user location (also displayed in an interactive map)."
-                website = "https://gavimar.github.io/mountain-proyect-api/"
-                code="https://github.com/gavimar/mountain-proyect-api"
-                background = "climb"
+        <Col sm ={5} >
+                <ProjectCard
+                name = "Simple Responsive Layout - jQuery"
+                description ="Layout project. A simple responsive website for online yoga courses, created using HTML5, CSS and jQuery."
+                website = "https://gavimar.github.io/Website-layout-jquery/"
+                code="https://github.com/gavimar/Website-layout-jquery"
+                background = "yoga"
                 
                 >
-          </ProjectCard>
+                  
+                </ProjectCard>
+                
         </Col>
+
+        
         </Row>
 
         <Row>
@@ -95,11 +99,24 @@
           </ProjectCard>
         </Col>
         
-
-        
         <Col sm ={5}>
         <ProjectCard
-                name = "Character Finder - API Data - React"
+                name = "Climb Around - API Data - React Hooks"
+                description ="React project using hooks, geolocation and leaflet. It connects to and API to show climbing routes near the user location (also displayed in an interactive map)."
+                website = "https://gavimar.github.io/mountain-proyect-api/"
+                code="https://github.com/gavimar/mountain-proyect-api"
+                background = "climb"
+                
+                >
+          </ProjectCard>
+        </Col>
+
+        </Row>
+
+        <Row>
+        <Col sm ={5}>
+        <ProjectCard
+                name = "Character Finder - API Data - React Class Components"
                 description ="Search interface that connects to and API to get and show data. If you click on an item the character details are displayed."
                 website = "https://gavimar.github.io/api-react/"
                 code="https://github.com/gavimar/api-react"
@@ -107,8 +124,9 @@
                 >
           </ProjectCard>
         </Col>
-        
         </Row>
+        
+       
 
         </Container>
 

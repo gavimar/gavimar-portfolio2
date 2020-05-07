@@ -44,7 +44,6 @@ export default class MenuBar extends React.Component {
     fontWeight: "bold",    backgroundColor: 'blue' }}>Home</NavLink>
             </NavItem>
             <NavItem>
-              {/* <NavLink exact to="/Portfolio" activeClassName="active" tag={RRNavLink} style = {{color:"#FFFFFF"}}>Portfolio</NavLink> */}
              <NavLink className="inactive" activeClassName="active" href="#Portfolio"  style = {{color:"#FFFFFF"}} activeStyle={{
     fontWeight: "bold",    backgroundColor: 'blue' }}>Portfolio</NavLink>
             </NavItem>
