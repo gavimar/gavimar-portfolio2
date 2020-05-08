@@ -40,7 +40,19 @@
                 
         </Col>
 
-        <Col sm ={5} >
+        <Col sm ={5}>
+        <ProjectCard
+                name = "Climb Around - API Data - React Hooks"
+                description ="React project using hooks, geolocation and leaflet. It connects to and API to show climbing routes near the user location (also displayed in an interactive map)."
+                website = "https://gavimar.github.io/mountain-proyect-api/"
+                code="https://github.com/gavimar/mountain-proyect-api"
+                background = "climb"
+                
+                >
+          </ProjectCard>
+        </Col>
+
+        {/* <Col sm ={5} >
                 <ProjectCard
                 name = "Simple Responsive Layout - jQuery"
                 description ="Layout project. A simple responsive website for online yoga courses, created using HTML5, CSS and jQuery."
@@ -52,7 +64,7 @@
                   
                 </ProjectCard>
                 
-        </Col>
+        </Col> */}
 
         
         </Row>
@@ -99,33 +111,23 @@
           </ProjectCard>
         </Col>
         
+        
+
+        
+
+        
         <Col sm ={5}>
         <ProjectCard
-                name = "Climb Around - API Data - React Hooks"
-                description ="React project using hooks, geolocation and leaflet. It connects to and API to show climbing routes near the user location (also displayed in an interactive map)."
-                website = "https://gavimar.github.io/mountain-proyect-api/"
-                code="https://github.com/gavimar/mountain-proyect-api"
-                background = "climb"
-                
-                >
-          </ProjectCard>
-        </Col>
-
-        </Row>
-
-        <Row>
-        <Col sm ={5}>
-        <ProjectCard
-                name = "Character Finder - API Data - React Class Components"
-                description ="Search interface that connects to and API to get and show data. If you click on an item the character details are displayed."
+                name = "Character Finder - API Data - React"
+                description ="Search interface that connects to and API to get and show data (using React class components). If you click on an item the character details are displayed (using React Router)."
                 website = "https://gavimar.github.io/api-react/"
                 code="https://github.com/gavimar/api-react"
                 background = "ricky"
                 >
           </ProjectCard>
         </Col>
-        </Row>
         
+        </Row>
        
 
         </Container>
