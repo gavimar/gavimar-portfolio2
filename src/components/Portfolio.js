@@ -70,6 +70,20 @@
         </Row>
 
         <Row>
+
+        
+
+        <Col sm ={5}>
+        <ProjectCard
+                name = "Awesome Profile Cards - Migration to React"
+                description ="Editing code project implementing React and refactoring."
+                website = "https://gavimar.github.io/awesome-cards-react/"
+                code="https://github.com/gavimar/awesome-cards-react"
+                background = "awesome-react"
+                >
+          </ProjectCard>
+        </Col>
+        
         <Col sm ={5}>
       
           <ProjectCard
@@ -84,20 +98,23 @@
         </Col>
         
         
-        <Col sm ={5}>
-        <ProjectCard
-                name = "Awesome Profile Cards - Migration to React"
-                description ="Editing code project implementing React and refactoring."
-                website = "https://gavimar.github.io/awesome-cards-react/"
-                code="https://github.com/gavimar/awesome-cards-react"
-                background = "awesome-react"
-                >
-          </ProjectCard>
-        </Col>
 
         </Row>
 
         <Row>
+
+        <Col sm ={5}>
+      
+          <ProjectCard
+                name = "Monedero - React Hooks/ Material UI"
+                description ="Small site to compare cryptocurrency exchange rates from different online wallets. Built with React Hooks and Material UI."
+                website = "https://gavimar.github.io/wallet-compare/ "
+                code="https://github.com/gavimar/wallet-compare "
+                background = "monedero"
+               
+                >
+          </ProjectCard>
+        </Col>
 
         <Col sm ={5}>
         <ProjectCard
@@ -111,9 +128,10 @@
           </ProjectCard>
         </Col>
         
+        </Row>
         
 
-        
+        <Row>
 
         
         <Col sm ={5}>
